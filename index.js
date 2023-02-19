@@ -37,7 +37,7 @@ function render(leads)
     ulEl.innerHTML = listItems
 }
 
-deleteBtn,addEventListener("dblclick",function(){
+deleteBtn.addEventListener("click",function(){
    // console.log("double clicked!")
     localStorage.clear()
     myLeads = []
